@@ -19,7 +19,7 @@ source=(
   "$_srcname::git+https://github.com/archlinux/linux?signed#tag=$_srctag"
   config         # the main kernel config file
   8f7bd40e57d653138e2bf94524884329b681a18f.patch
-  dv.patch
+#  dv.patch
 )
 validpgpkeys=(
   'ABAF11C65A2970B130ABE3C479BE3E4300411886'  # Linus Torvalds
@@ -29,7 +29,7 @@ validpgpkeys=(
 )
 sha256sums=('SKIP'
             'e2140782726c69db81dd5be0602479bb4e161772e83e77de1470c9ceea622ca4'
-            'SKIP'
+#            'SKIP'
             'SKIP')
 
 export KBUILD_BUILD_HOST=archlinux
